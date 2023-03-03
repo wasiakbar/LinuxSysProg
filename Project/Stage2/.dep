@@ -1,3 +1,0 @@
-client.o: client.c sig.h em_registers.h
-libsig.o: libsig.c sig.h
-server.o: server.c sig.h em_registers.h sem.h
