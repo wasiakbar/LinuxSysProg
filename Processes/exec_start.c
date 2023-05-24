@@ -12,7 +12,8 @@ int main()
 	printf("My Parent process's id is %d\n", getppid());
 
 	printf("exec starts\n");
-	//TODO 1: Execute exec_overlay with execl function 
+	//TODO 1: Execute exec_overlay with execl function
+	execl("exec_overlay",NULL); 
 	printf("This won't print\n");
 	return 0;
 }
